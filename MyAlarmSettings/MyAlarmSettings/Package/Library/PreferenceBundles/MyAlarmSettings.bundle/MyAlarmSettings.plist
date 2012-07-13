@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>MyAlarm</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>label</key>
+			<string>Settings</string>
+			<key>footerText</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>makeDonation:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Choose Song</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>visitWebSite:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Set Song As Alarm</string>
+		</dict>
+		<dict>
+			<key>footerText</key>
+			<string>© 2012 Fire30</string>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>label</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>
